@@ -1,0 +1,39 @@
+.btn-group {
+    width: 50px;
+    height: 150px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
+
+    .btn-group__inner {
+        margin: auto;
+    }
+}
+
+.tabs-icon {
+    width: 25px;
+}
+
+.fa-home {
+    color: #FFD439;
+    font-size: 20px;
+}
+
+.btn-menu::after {
+    content: "М";
+    color: #000000 !important;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+.btn-menu {
+    margin: 10px 0;
+}
+
+
+.btn-menu__link:hover, .btn-home__link:hover {
+    text-decoration: none !important;
+}

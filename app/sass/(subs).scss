@@ -1,0 +1,28 @@
+@import 'basic';
+@import 'btns';
+@import 'cards';
+
+// SUBS-PANEL ////////////
+.subs-panel {
+    margin: 60px auto;
+
+    h6 {
+        color: #949494;
+    }
+
+    .row {
+        margin: 0 0 12px 0;
+        align-items: center;
+    }
+
+    img {
+        width: 27px;
+        height: 27px;
+        margin-right: 8px;
+    }
+
+    span {
+        color: #606060;
+        font-size: .8em;
+    }
+}

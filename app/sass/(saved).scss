@@ -1,0 +1,30 @@
+@import 'basic';
+@import 'btns';
+@import 'cards';
+
+.content {
+    height: 100vh;
+    margin: auto;
+}
+
+.separation {
+    margin: 20px 0;
+
+    p {
+        font-size: .8em;
+    }
+
+    .line {
+        height: 1px;
+    }
+
+    &.week {
+        p {
+            color: #FFD600;
+        }
+
+        .line {
+            background: linear-gradient(270deg, #FF0000 0%, rgba(255, 255, 255, 0) 100%), #FFD600; 
+        }
+    }
+}

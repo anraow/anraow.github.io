@@ -1,0 +1,84 @@
+// STYLES ///////////////////////////////
+body {
+    margin: 0;
+    background: #131517 !important;
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+img {
+    vertical-align: baseline !important;
+}
+
+a {
+    color: #ffffff;
+
+    &:hover, &:focus {
+        color: #ffffff;
+    }
+}
+
+// ELEMENT STYLES /////////////////////
+.brand-name {
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.53);
+
+    &:hover {
+        color: #131517;
+    }
+}
+
+// NAME TITLE --------------------------
+// .name-title {   
+//     font-family: Noto Sans;
+//     font-size: 0.85rem;
+// }
+
+.user-name {
+    color: #a3a3a3;
+    font-style: italic;
+}
+
+.dropdown-menu {
+    font-size: .8rem !important;
+    font-style: normal;
+}
+
+.dropdown-toggle {
+    font-size: 0.85rem !important;
+    color: #FFFFFF !important;
+    font-style: normal;
+
+    &::after {
+        vertical-align: .155em !important;
+    }
+}
+
+// MAIN ================================
+.menu__icon {
+    width: .5rem;
+    height: auto;
+}
+// LEFT MENU ----------------------------
+.menu__item {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.menu__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 300 !important;
+    
+    &:hover {
+        color: #FFFFFF;
+    }
+}

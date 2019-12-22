@@ -1,0 +1,51 @@
+@import 'btns';
+@import 'basic';
+@import 'cards';
+
+p {
+    margin: 0;
+}
+
+// HEADER ====================
+.fa-search {
+    font-size: .8rem;
+    color: #6A6A6A;
+}
+
+.search__input {
+    border: none;
+    color: #6A6A6A;
+    font-size: .8rem;
+
+    &:hover,
+    &:focus {
+        border: none !important;
+        outline: none;
+    }
+}
+
+.users-avatar {
+    width: 30px;
+    height: 30px;
+}
+
+h6 {
+    font-family: 'PT Serif', serif;
+}
+// MAIN //////////////////////
+// CONTENT ==================
+.content {
+    height: 70vh;
+}
+
+// MENU =====================
+.filter__btn {
+    background-color: #D8D8D8;
+    color: #ffffff;
+    font-size: .8rem;
+
+    &:hover, &:focus {
+        outline: none;
+        font-size: .9rem;
+    }
+}

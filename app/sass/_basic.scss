@@ -1,0 +1,24 @@
+// STYLES ///////////////////////////////
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+a {
+    color: #000;
+    &:hover {
+        color: #000;
+    }
+    
+    &.link {
+        text-decoration: underline;
+    }
+}
+
+img {
+    object-fit: cover;
+}
+
+p {
+    margin: 0;
+}
