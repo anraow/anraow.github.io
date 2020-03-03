@@ -1,0 +1,53 @@
+1. CHANGE HTML TO PHP
+-- find places where I need some dynamic or data
+
+2. CREATE DATABASE LAYOUT
+-- table of users
+-- table of posts ( with comments & photos )
+
+3. CONNECT DATABASE & PHP PAGES
+
+-- post data from php to sql
+-- get data from sql to php
+
+4. TEST
+
+
+Functionality:
+
+All events  |
+            |- last time most popular
+            |- filter by ... ???
+            |- 
+
+Subscribed  |
+            |- people I follow
+            |- all events by them
+            |- personal filtering 
+???
+
+My Page     |
+            |- create events by myself
+            |- autorization
+
+Saves       |
+            |- save some important events
+            |- check and notify about sooner 
+
+History     |
+            |- save events that already been
+???
+
+
+
+In sequince:
+All events  |
+            |- last time most popular
+
+My Page     |
+            |- create events by myself
+            |- authorization
+
+Saves       |
+            |- save some important events
+            |- check and notify about sooner

@@ -1,35 +1,51 @@
 @import 'basic';
+@import 'carousel';
+
+// $carousel-indicator-width: 5px !important;
+// $carousel-indicator-height: 10px !important;
 
 body {
     background: #131517;
 }
 
 a {
-   color: #ffffff;
+    color: #ffffff;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         color: #ffffff;
-    } 
-}
-
-
-// BACK LINK //////////////////
-.back-link {
-    font-size: .8rem;
+    }
 }
 
 // CONTENT SECTION ///////////////////
 // CAROUSEL -------------
-.carousel-img {
-    width: 100%;
-    height: auto;
+.carousel {
+
+    // .carousel-img {
+    //     width: 670px;
+    //     height: 430px;
+    // }
+
+    .carousel-indicators {
+        margin: 0;
+        bottom: 0;
+
+        li {
+            // width: 50px;
+            height: 2px;
+            background: rgba(0, 0, 0, 0.7);
+            margin: 0;
+            transition: 0.4s;
+            // max-width: 50%;
+
+            &.active {
+                background: rgba(255, 255, 255, 0.7);
+                // max-width: 100%;
+            }
+        }
+    }
 }
 
-.carousel-indicator {
-    width: 10px !important;
-    height: 5px !important;
-    margin: 0 10px !important;
-}
 
 // EVENT DESCRIBE -------
 .title {
@@ -37,6 +53,7 @@ a {
     font-size: 1.1em;
     font-weight: bold;
     letter-spacing: .03em;
+    margin-bottom: 15px;
 
     .date {
         margin-left: 10px;
@@ -79,7 +96,7 @@ a {
         width: 100%;
         height: 300px;
         overflow-y: scroll;
-        
+
         &::-webkit-scrollbar {
             width: 0;
         }
@@ -119,7 +136,7 @@ a {
         width: 80%;
         background-color: #3d3d3d;
         padding: 6px 8px;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
 
         .comment__avatar {
             width: 35px;
@@ -144,7 +161,7 @@ a {
     height: 200px;
     width: 80%;
     overflow-y: scroll;
-        
+
     &::-webkit-scrollbar {
         width: 0;
     }

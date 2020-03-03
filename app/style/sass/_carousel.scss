@@ -1,0 +1,18 @@
+.carousel {
+
+    .carousel-item img {
+        width: 670px;
+        height: 430px;
+    }
+
+    .carousel-control-prev:hover,
+    .carousel-control-next:hover {
+        background-color: rgba(243, 243, 243, 0.507);
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        display: none;
+    }
+    
+}

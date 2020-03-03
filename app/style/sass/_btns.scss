@@ -22,8 +22,7 @@
     font-size: 20px;
 }
 
-.btn-menu::after {
-    content: "М";
+.btn-menu__link {
     color: #000000 !important;
     font-family: 'PT Serif', serif;
     font-size: 20px;
@@ -33,7 +32,22 @@
     margin: 10px 0;
 }
 
+.dropdown-menu {
+    background-color: #131517;
+    border-radius: 0;
 
-.btn-menu__link:hover, .btn-home__link:hover {
+    .dropdown-item {
+        color: #fff;
+        font-size: .8em;
+
+        &:hover, &:focus {
+            background: none;
+        }
+    }
+}
+
+
+.btn-menu__link:hover,
+.btn-home__link:hover {
     text-decoration: none !important;
 }

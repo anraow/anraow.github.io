@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Добавить</title>
+    <!-- ============================================================================================= -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif&display=swap" rel="stylesheet">
+    <!-- ============================================================================================= -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- ============================================================================================= -->
+    <link rel="icon" href="img/bar-logo.png" type="image/x-icon">
+    <!-- ============================================================================================= -->
+    <link rel="stylesheet" href="../style/css/(add-card).css">
+    <!-- ============================================================================================= -->
+    <script src="https://kit.fontawesome.com/8464638234.js" crossorigin="anonymous"></script>
+    <!-- ============================================================================================= -->
+</head>
+
+<body>
+    <div class="col-1 p-3">
+        <button class="go-back" onclick="window.history.back()">
+            <i class="fas fa-angle-left"></i> назад
+        </button>
+    </div>
+    <div class="col-9 m-auto p-0">
+        <form>
+            <div class="photo-upload d-flex" id="photo-upload">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" id="preview"></div>
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="photo-menu text-center">
+                    <label class="photo-input" class="btn photo-input">
+                        Выбрать файл <input id="file-input" type="file" name="photo" multiple hidden>
+                    </label><br>
+                    <button class="btn btn-link delete-btn" id="delete-btn">Удалить фото</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <input name="title" type="text" placeholder="Название">
+                    <input name="event-city" type="text" placeholder="Город">
+                </div>
+                <div class="form-group row">
+                    <input type="date" value="2020-01-01" id="date-input">
+                </div>
+                <textarea name="desc" id="" cols="60" rows="5" placeholder="Описание"></textarea><br>
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Бесплатный вход
+                </label>
+            </div>
+            <button class="create-btn" type="submit">Создать событие</button>
+        </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <!-- jQuery CDN end -->
+    <script src="src/ADD-CARD.js"></script>
+    <!-- <script src="src/IMAGE-UPLOAD.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+</body>
+
+</html>

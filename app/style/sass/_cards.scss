@@ -1,3 +1,8 @@
+
+label {
+    margin: 0;
+}
+
 .content {
     height: 80vh;
     overflow-y: scroll;
@@ -12,16 +17,17 @@
         width: 288px;
         height: 268px;
         border: none;
+        margin-right: 3px;
 
         .fa-bookmark,
         .fa-ellipsis-h {
             font-size: .5rem;
-            color: #A3A3A3;
+            color: #BFBFBF;
             margin: 7px;
         }
 
         .card-inner {
-            background: url(../img/events/sum-festival.jpg);
+            background: url(../../items/img/events/sum-festival.jpg);
             background-position: 50% 50%;
             background-repeat: no-repeat;
             background-size: cover;
@@ -40,19 +46,23 @@
             }
 
             &:hover {
+                
+                .card-desc {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    background: rgba(0, 0, 0, 0.6);
+                }
 
                 .event-maker {
                     display: block;
                     width: 14px;
                     height: 14px;
-                    margin: 10px 14px;
+                    margin: auto 14px;
                 }
 
-                .card-desc {
-                    display: block;
-                    width: 100%;
-                    height: 34px;
-                    background: rgba(0, 0, 0, 0.6);
+                .event-info {
+                    margin: 4px 0;
                 }
 
                 .name {
@@ -81,5 +91,11 @@
         }
     }
     // CARD END
+
+    .card.saved {
+        .fa-bookmark {
+            color: #FFD53E !important;
+        }
+    }
 
 }

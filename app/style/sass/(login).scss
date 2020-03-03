@@ -1,0 +1,32 @@
+@import 'basic';
+
+.preview-photo {
+    width: 100vw;
+    height: 283px;
+}
+
+.form-group {
+    margin: 20px auto;
+
+    h4 {
+        margin-bottom: 30px;
+    }
+
+    .login-input {
+        border: 1px solid #6C6C6C;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+    }
+
+    .submit-input {
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #A6A6A6;
+        border: 1px solid #000000;
+        padding: 5px 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    a {
+        font-size: .9em;
+    }
+}

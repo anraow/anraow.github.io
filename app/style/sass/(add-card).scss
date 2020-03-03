@@ -1,0 +1,89 @@
+@import 'basic';
+@import 'carousel';
+
+.row {
+    margin: 20px 0;
+}
+
+label {
+    margin: 0;
+}
+
+.photo-upload {
+    #preview {
+        width: 670px;
+        height: 430px;
+        background-image: url(../../items/img/file.svg);
+
+        // .carousel-item img {
+        //     width: 670px;
+        //     height: 430px;
+        // }
+    }
+
+    // .photo-preview {
+    //     width: 670px;
+    //     height: 430px;
+    //     // background: #D0D0D0;
+    // }
+
+    .delete-btn {
+        font-size: .8em;
+        color: #D92121;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .photo-menu {
+        margin: 0 15px;
+    }
+
+    .photo-input {
+        padding: 5px 15px;
+        cursor: pointer;
+        background: #1D1D1D;
+        color: #D0D0D0;
+        font-size: .8em;
+        font-weight: 200;
+    }
+
+    // .carousel-control-prev:hover,
+    // .carousel-control-next:hover {
+    //     background-color: rgba(243, 243, 243, 0.507);
+    // }
+
+    // .carousel-control-prev-icon,
+    // .carousel-control-next-icon {
+    //     display: none;
+    // }
+}
+
+.form-group {
+    input,
+    textarea,
+    label {
+        font-size: .9em;
+        padding: 5px 10px;
+    }
+
+    .row {
+        input {
+            margin-right: 10px;
+        }
+    }
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+
+.create-btn {
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background: #1D1D1D;
+    color: #D0D0D0;
+    font-size: .8em;
+    font-weight: 200;
+    border: none;
+}

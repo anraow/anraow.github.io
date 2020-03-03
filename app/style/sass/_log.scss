@@ -1,0 +1,55 @@
+.wrapper {
+    background: url(../img/login/redpeople.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.benefit-group {
+    margin-left: 10px;
+
+    .benefit {
+        color: #ffffff;
+        font-size: .9em;
+        margin: 10px 0;
+    }
+}
+
+.signup-form, .login-form {
+    padding: 50px 0 60px 0;
+}
+
+.signup-form, .login-form {
+    position: fixed;
+    right: 50px;
+    background: rgba(255, 255, 255, 0.95);
+
+    h5 {
+        font-weight: 600;
+        color: #626262;
+    }
+
+    .signup-inner, .login-inner {
+        input {
+            background: #FCFCFC;
+            border: 0.5px solid rgb(202, 202, 202);
+            padding: 7px 0 7px 15px;
+
+            &::placeholder {
+                color: #C6C6C6;
+            }
+        }
+
+        .btn-submit {
+            background: #181717;
+            color: #ffffff;
+            border: none;
+            padding: 7px 15px;
+            margin-right: 20px;
+        }
+    }
+
+}

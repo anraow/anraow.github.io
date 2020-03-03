@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+a.link {
+  text-decoration: underline;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p {
+  margin: 0;
+}
+
+button.go-back {
+  color: #000;
+  border: none;
+  background: none;
+}
+
+.load-btn {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.preview-photo {
+  width: 100vw;
+  height: 283px;
+}
+
+.form-group {
+  margin: 20px auto;
+}
+
+.form-group h4 {
+  margin-bottom: 30px;
+}
+
+.form-group .login-input {
+  border: 1px solid #6C6C6C;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+}
+
+.form-group .submit-input {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(255, 255, 255, 0))), #A6A6A6;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #A6A6A6;
+  border: 1px solid #000000;
+  padding: 5px 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.form-group a {
+  font-size: .9em;
+}

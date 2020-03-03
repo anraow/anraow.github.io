@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+a.link {
+  text-decoration: underline;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p {
+  margin: 0;
+}
+
+button.go-back {
+  color: #000;
+  border: none;
+  background: none;
+}
+
+.load-btn {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.btn-group {
+  width: 50px;
+  height: 150px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn-group .btn-group__inner {
+  margin: auto;
+}
+
+.tabs-icon {
+  width: 25px;
+}
+
+.fa-home {
+  color: #FFD439;
+  font-size: 20px;
+}
+
+.btn-menu__link {
+  color: #000000 !important;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+}
+
+.btn-menu {
+  margin: 10px 0;
+}
+
+.dropdown-menu {
+  background-color: #131517;
+  border-radius: 0;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #fff;
+  font-size: .8em;
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus {
+  background: none;
+}
+
+.btn-menu__link:hover,
+.btn-home__link:hover {
+  text-decoration: none !important;
+}
+
+label {
+  margin: 0;
+}
+
+.content {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.content::-webkit-scrollbar {
+  width: 0;
+}
+
+.content .card {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 288px;
+  height: 268px;
+  border: none;
+  margin-right: 3px;
+}
+
+.content .card .fa-bookmark,
+.content .card .fa-ellipsis-h {
+  font-size: .5rem;
+  color: #BFBFBF;
+  margin: 7px;
+}
+
+.content .card .card-inner {
+  background: url(../../items/img/events/sum-festival.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #FEFEFE;
+  -webkit-box-shadow: 0px 0.3px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0.3px 1px rgba(0, 0, 0, 0.25);
+  width: 288px;
+  height: 238px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end !important;
+      -ms-flex-align: end !important;
+          align-items: flex-end !important;
+}
+
+.content .card .card-inner .card-desc,
+.content .card .card-inner .event-maker,
+.content .card .card-inner p,
+.content .card .card-inner .fa-dollar-sign {
+  display: none;
+}
+
+.content .card .card-inner:hover .card-desc {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.content .card .card-inner:hover .event-maker {
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: auto 14px;
+}
+
+.content .card .card-inner:hover .event-info {
+  margin: 4px 0;
+}
+
+.content .card .card-inner:hover .name {
+  display: block;
+  font-size: 0.6rem;
+  color: #C9C9C9;
+  font-weight: 600;
+}
+
+.content .card .card-inner:hover .date {
+  display: block;
+  font-size: 8px;
+  color: #B0B0B0;
+  font-weight: 500;
+}
+
+.content .card .card-inner:hover .fa-dollar-sign {
+  display: block;
+  font-size: 0.6rem;
+  color: #565656;
+  margin: auto;
+}
+
+.content .card.saved .fa-bookmark {
+  color: #FFD53E !important;
+}
+
+.subs-panel {
+  margin: 60px auto;
+}
+
+.subs-panel h6 {
+  color: #949494;
+}
+
+.subs-panel .row {
+  margin: 0 0 12px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subs-panel img {
+  width: 27px;
+  height: 27px;
+  margin-right: 8px;
+}
+
+.subs-panel span {
+  color: #606060;
+  font-size: .8em;
+}

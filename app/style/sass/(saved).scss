@@ -2,9 +2,15 @@
 @import 'btns';
 @import 'cards';
 
+.page-title {
+    font-family: 'PT Serif', serif;
+    margin: 50px;
+}
+
 .content {
-    height: 100vh;
-    margin: auto;
+    height: 77vh;
+    margin: 30px;
+    padding-right: 15px;
 }
 
 .separation {
@@ -24,7 +30,7 @@
         }
 
         .line {
-            background: linear-gradient(270deg, #FF0000 0%, rgba(255, 255, 255, 0) 100%), #FFD600; 
+            background:#FFD600; 
         }
     }
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Зарегаться</title>
+    <!-- ============================================================================================= -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif&display=swap" rel="stylesheet">
+    <!-- ============================================================================================= -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- ============================================================================================= -->
+    <link rel="icon" href="../items/img/bar-logo.png" type="image/x-icon">
+    <!-- ============================================================================================= -->
+    <link rel="stylesheet" href="../style/css/(registrate).css">
+    <!-- ============================================================================================= -->
+</head>
+
+<body>
+    <div class="wrapper d-flex">
+        <aside class="col-3 text-center">
+            <div class="aside-inner">
+                <p><a class="submit" href="login.html">Уже есть аккаунт ?</a></p>
+            </div>
+        </aside>
+
+        <div class="main col-9">
+            <form action="registrate-connect.php" method="POST">
+                <h2>Регистрация</h2>
+                <p class="text-muted">Обязательные поля*</p>
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="имя фамилия">
+                    <input type="text" name="id" placeholder="мой ID">
+                    <input type="email" name="email" placeholder="email">
+                    <input type="password" name="password" placeholder="пароль">
+                </div>
+                <p class="text-muted">Необязательные поля</p>
+                <div class="input-group">
+                    <input type="text" name="city" placeholder="город">
+                </div>
+                <img class="avatar-preview" id="avatar-preview" src="../items/img/avaico.png" alt="your image" /><br>
+                <input class="avatar-input" name="avatar" type="file"/>
+                <div class="about">
+                    <h5>О себе</h5>
+                    <textarea name="about" cols="40" rows="5"></textarea>
+                </div>
+                <input class="submit" name="submit" type="submit" value="Готово">
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="../src/IMAGE-UPLOAD.js"></script>
+</body>
+
+</html>

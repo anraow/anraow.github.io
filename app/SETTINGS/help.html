@@ -14,7 +14,7 @@
     <!-- ============================================================================================= -->
     <link rel="icon" href="img/bar-logo.png" type="image/x-icon">
     <!-- ============================================================================================= -->
-    <link rel="stylesheet" href="css/help.css">
+    <link rel="stylesheet" href="../style/css/(help).css">
     <!-- ============================================================================================= -->
     <script src="https://kit.fontawesome.com/8464638234.js" crossorigin="anonymous"></script>
 </head>
@@ -33,16 +33,40 @@
     <div class="btn-group text-center">
         <div class="btn-group__inner">
             <div class="btn-tabs">
-                <a class="btn-tabs__link" href="#"><img src="favicon/tabs.svg"></a>
+                <a class="btn-tabs__link" href="#"><img src="../items/favicon/tabs.svg"></a>
             </div>
             <div class="btn-menu">
-                <a class="btn-menu__link" href="#"></a>
+                <div class="dropdown">
+                    <a class="btn btn-link btn-menu__link" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                        M
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="../all_events/events.html">Все события</a>
+                        <a class="dropdown-item" href="../my_page/mypage.html">Моя страница</a>
+                        <a class="dropdown-item" href="../saves/saved.html">Сохраненное</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Настройки</a>
+                        <a class="dropdown-item" href="../SETTINGS/help.html">Помощь</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">О нас</a>
+                    </div>
+                </div>
             </div>
             <div class="btn-home">
-                <a class="btn-home__link" href="index.html"><i class="fas fa-home"></i></a>
+                <a class="btn-home__link" href="../index.html"><i class="fas fa-home"></i></a>
             </div>
         </div>
     </div>
 
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <!-- jQuery CDN end -->
 </body>
 </html>

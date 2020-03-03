@@ -1,0 +1,71 @@
+@import 'basic';
+
+.text-muted {
+    font-size: .8em;
+}
+
+aside {
+    height: 100vh;
+    background: url(../../items/img/login/redpeople.jpg);
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    .aside-inner {
+        position: relative;
+        top: 85%;
+
+        .submit {
+            color: #D0D0D0;
+            background: linear-gradient(180deg, #1D1D1D 0%, rgba(6, 6, 6, 0) 100%), #151313;
+            border: 1px solid #979797;
+            font-size: .9em;
+            padding: 5px 20px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #D3D3D3;
+        }
+    }
+}
+
+.main {
+    .input-group {
+        margin: 25px 0;
+        input {
+            border: none;
+            margin-right: 10px;
+            padding: 5px 10px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .avatar-preview {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .avatar-input {
+        padding: 5px;
+        cursor: pointer;
+        display: block;
+        background: #1D1D1D;
+        color: #D0D0D0;
+        font-size: .7em;
+        font-weight: 200;
+    }
+
+    .avatar-input:hover {
+        color: white;
+    }
+
+    .about {
+        margin-top: 30px;
+    }
+}
